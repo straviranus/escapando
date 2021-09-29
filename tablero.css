@@ -1,0 +1,43 @@
+#tablero{
+ 
+    width: 504px;
+    height: 504px;
+    line-height: 50%;
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(8, 12.5%);
+    overflow: hidden; 
+    position: fixed;
+    visibility:hidden;
+    margin: auto;
+    
+
+}
+.bajando{
+    animation-name: bajando;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+@keyframes bajando{
+    0%{top: 0px}
+    100%{top: 60.5px;}
+}
+
+
+    
+    div[color="blanco"]{
+        background-color:#E18D14;
+      
+    }
+    div[color="negro"]{
+        background-color:#741C09;
+       
+    }
+    #board{
+        width: 504px;
+        height: 504px;
+        margin:auto;
+        overflow: hidden;
+        
+    }

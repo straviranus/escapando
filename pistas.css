@@ -1,0 +1,85 @@
+.pista{
+    height: 60px;
+    width: 60px;
+    background-image: url(imagenes/idea.png);
+    background-size: 100% 100%;
+visibility: hidden;
+}
+
+.subir-1:hover{
+    width: 150px;
+    height: 150px;
+    background-image: url(imagenes/inicial.png);
+    background-size: 100% 100%;
+    padding: 0;
+}
+.bajar-1:hover{
+    width: 70px;
+    height: 70px;
+    background-image: url(imagenes/king.png);
+    background-size: 100% 100%;
+    padding: 0;
+    border-radius: 30%;
+}
+.subir-2:hover{
+    width: 150px;
+    height: 150px;
+    background-image: url(imagenes/pista-4.png);
+    background-size: 100% 100%;
+    padding: 0;
+}
+.bajar-2:hover{
+    width: 150px;
+    height: 150px;
+    background-image: url(imagenes/pista-3.png);
+    background-size: 100% 100%;
+    padding: 0;
+}
+.subir-1{
+    visibility: visible;
+    animation-name: subiendo ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+.bajar-1{
+    visibility: visible;
+    animation-name: bajar ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.subir-2{
+    visibility: visible;
+    animation-name: subiendo ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+.bajar-2{
+    visibility: visible;
+    animation-name: bajar ;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    position: relative;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes subiendo {
+0%{ top: 370px; left: 100px;opacity: 0.0; }
+50%{ opacity: 1; }
+100% {top: -250px; left: 100px; opacity: 0.0;}
+}
+@keyframes bajar {
+    0%{ top: -250px; left: 100px;opacity: 0.0; }
+    50%{ opacity: 1; }
+    100% {top: 370px; left: 100px; opacity: 0.0;}
+    }

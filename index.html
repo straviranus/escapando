@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de Ajedrez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablero.css">
+    <link rel="stylesheet" href="final.css">
+    <link rel="stylesheet" href="pistas.css">
+<script src="main.js"></script>
+    <audio src="Audios/Danubio.mp3" controls="" id="danubio" class="audio"></audio>
+    <audio src="Audios/aplausos_4.mp3" controls="" id="aplausos" class="audio"></audio>
+    <audio src="Audios/campanita.mp3" controls="" id="campanita" class="audio"></audio>
+
+
+</head>
+<body>
+    
+    
+    <div id="contenedor">
+        <button id="boton" onclick="iniciar()"> Empezar juego </button>
+        <div id="caja-1">
+        <div id="caballo" class="ficha"></div>
+        <div id="dama" class="ficha"></div>
+        <div id="pista-1" class="pista"></div>
+        <div id="pista-3" class="pista"></div>
+    </div>
+    <div id="board"> 
+    <div id="tablero">
+    
+   
+   
+
+   <!-- octava fila --> 
+
+   <div id="a8" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="ocho"></div>
+   <div id="b8"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="ocho"></div>
+   <div id="c8" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="ocho"></div>
+   <div id="d8"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="ocho"></div>
+   <div id="e8"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="ocho"></div>
+   <div id="f8"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="ocho"></div>
+   <div id="g8"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="ocho"></div>
+   <div id="h8"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="ocho"></div>
+<!-- septima fila --> 
+
+<div id="a7" class="casilla"oncontextmenu="return false" color="negro" ocupada="false" fila="siete"></div>
+<div id="b7" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="siete"></div>
+<div id="c7"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="siete"></div>
+<div id="d7"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="siete"></div>
+<div id="e7"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="siete"></div>
+<div id="f7"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="siete"></div>
+<div id="g7"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="siete"></div>
+<div id="h7"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="siete"></div>
+<!-- sexta fila --> 
+
+<div id="a6" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="seis"></div>
+<div id="b6"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="seis"></div>
+<div id="c6" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="seis"></div>
+<div id="d6"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="seis"></div>
+<div id="e6"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="seis"></div>
+<div id="f6"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="seis"></div>
+<div id="g6"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="seis"></div>
+<div id="h6"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="seis"></div>
+<!-- quinta fila --> 
+
+<div id="a5" class="casilla"oncontextmenu="return false" color="negro" ocupada="false"fila="cinco"></div>
+<div id="b5" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cinco"></div>
+<div id="c5"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cinco"></div>
+<div id="d5"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cinco"></div>
+<div id="e5"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cinco"></div>
+<div id="f5"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cinco"></div>
+<div id="g5"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cinco"></div>
+<div id="h5"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cinco"></div>
+  <!-- cuarta fila --> 
+
+  <div id="a4" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cuatro"></div>
+  <div id="b4"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cuatro"></div>
+  <div id="c4" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cuatro"></div>
+  <div id="d4"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cuatro"></div>
+  <div id="e4"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cuatro"></div>
+  <div id="f4"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cuatro"></div>
+  <div id="g4"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="cuatro"></div>
+  <div id="h4"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="cuatro"></div>
+   
+      <!-- tercera fila --> 
+
+<div id="a3" class="casilla"oncontextmenu="return false" color="negro" ocupada="false"fila="tres"></div>
+<div id="b3" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="tres"></div>
+<div id="c3"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="tres"></div>
+<div id="d3"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="tres"></div>
+<div id="e3"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="tres"></div>
+<div id="f3"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="tres"></div>
+<div id="g3"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="tres"></div>
+<div id="h3"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="tres"></div>
+
+     <!-- segunda fila --> 
+
+     <div id="a2" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="dos"></div>
+     <div id="b2"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="dos"></div>
+     <div id="c2" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="dos"></div>
+     <div id="d2"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="dos"></div>
+     <div id="e2"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="dos"></div>
+     <div id="f2"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="dos"></div>
+     <div id="g2"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="dos"></div>
+     <div id="h2"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="dos"></div>
+   <!-- primera fila --> 
+      
+   <div id="a1" class="casilla" oncontextmenu="return false" color="negro" ocupada="false" fila="uno"></div>
+   <div id="b1" class="casilla"oncontextmenu="return false"color="blanco" ocupada="false" fila="uno"></div>
+   <div id="c1"class="casilla"oncontextmenu="return false"color="negro" ocupada="false" fila="uno"></div>
+   <div id="d1"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false" fila="uno"></div>
+   <div id="e1"class="casilla"oncontextmenu="return false"color="negro" ocupada="false" fila="uno"></div>
+   <div id="f1"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false" fila="uno"></div>
+   <div id="g1"class="casilla"oncontextmenu="return false"color="negro" ocupada="false"fila="uno"></div>
+   <div id="h1"class="casilla"oncontextmenu="return false"color="blanco" ocupada="false"fila="uno"></div>
+
+    </div>
+<div id="pieza" rey="false"></div> 
+    </div>
+    <div id="caja-2">
+        <div id="alfil" class="ficha"></div>
+        <div id="torre" class="ficha"></div> 
+        <div id="pista-2" class="pista"></div>
+        <div id="pista-4" class="pista"></div>
+    </div>
+    
+</div> 
+
+  
+    
+</body>
+</html>

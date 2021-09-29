@@ -1,0 +1,89 @@
+.ficha{
+    width: 70px;
+    height: 70px;
+    background-size: 100% 100%;
+ visibility: hidden;
+    
+
+}
+#caballo{
+    background-image: url(imagenes/caballo.png);
+    
+}
+#alfil{
+    background-image: url(imagenes/alfil.png);
+     
+}
+#dama{
+    background-image: url(imagenes/dama.png);
+     
+}
+#torre{
+
+    background-image: url(imagenes/torre.png);
+     
+}
+.volar-1{
+    display: block;
+    animation-name: vuelo-1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in
+}
+.volar-2{
+    display: block;
+    animation-name: vuelo-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+.volar-3{
+    display: block;
+    animation-name: vuelo-3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    position: relative;
+   
+
+}
+.volar-4{
+    display: block;
+    animation-name: vuelo-4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes vuelo-1{
+    0%{ left: 0px ; top: 400px;}
+    25%{ left: 100px ; top: 250px;}
+    50%{ left: 300px ; top: -20px;}
+    75%{ left: 1000px ; top: 50px;}
+    100%{ left: 0px ; top: 400px;}
+}
+@keyframes vuelo-2{
+    0%{ left: 1000px ; top: 100px;}
+    25%{ left: 300px ; top: 350px;}
+    50%{ left: 300px ; top: 100px;}
+    75%{ left: 1180px ; top: 0px;}
+    100%{ left: 1000px ; top: 100px;}
+}
+@keyframes vuelo-3{
+    0%{ left: 200px ; top: 320px;}
+    25%{ left: 100px ; top: 110px;}
+    50%{ left: 210px ; top: 290px;}
+    75%{ left: -1000px ; top: 0px;}
+    100%{ left: 200px ; top: 320px;}
+}
+@keyframes vuelo-4{
+    0%{ left: 0px ; top: -80px;}
+    25%{ left: 100px ; top: 0px;}
+    50%{ left: -1050px ; top: 100px;}
+    75%{ left: -700px ; top: 0px;}
+    100%{ left: 00px ; top: -80px;}
+}
