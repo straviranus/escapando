@@ -1,5 +1,7 @@
 // Creación del tablero
+
 function iniciar() {
+    document.getElementById("start").style.display="none";
 var Tablero=document.getElementById("tablero");
 Tablero.classList.add("bajando")
 Tablero.style.visibility="visible";
