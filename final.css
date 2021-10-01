@@ -7,20 +7,20 @@
 
 }
 #caballo{
-    background-image: url(imagenes/caballo.png);
+    background-image: url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/caballo.png);
     
 }
 #alfil{
-    background-image: url(imagenes/alfil.png);
+    background-image: url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/alfil.png);
      
 }
 #dama{
-    background-image: url(imagenes/dama.png);
+    background-image: url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/dama.png);
      
 }
 #torre{
 
-    background-image: url(imagenes/torre.png);
+    background-image: url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/torre.png);
      
 }
 .volar-1{
