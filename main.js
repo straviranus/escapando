@@ -137,7 +137,7 @@ if(
     (movimientoVertical==-63)&&(movimientoHorizontal==252)
 )
 {
-    ficha.style.backgroundImage ="url(imagenes/rey.png)";
+    ficha.style.backgroundImage ="url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/rey.png)";
     document.getElementById("campanita").play();
     ficha.setAttribute("rey", "true");
 }

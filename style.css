@@ -35,7 +35,7 @@ body {
 #pieza{
     width: 63px;
     height: 63px;
-    background-image: url(imagenes/rey.png);
+    background-image: url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/rey.png);
     background-size: 100% 100%;
     object-fit: cover;
     object-position: center;
