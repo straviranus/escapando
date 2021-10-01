@@ -74,14 +74,14 @@ function caracteres (chars) {
     var ficha= document.getElementById("pieza");
 // Array para ir cambiando las imágenes del elemento "Pieza"
 const piezas=[
-"url(imagenes/peon.png)",
-"url(imagenes/peon.png)", 
-"url(imagenes/caballo.png)",
-"url(imagenes/torre.png)",
-"url(imagenes/dama.png)",
-"url(imagenes/alfil.png)", 
-"url(imagenes/rey.png)",
-];   
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/peon.png)",
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/peon.png)", 
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/caballo.png)",
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/torre.png)",
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/dama.png)",
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/alfil.png)", 
+    "url(https://raw.githubusercontent.com/straviranus/imagenes-chess/master/rey.png)",
+    ];   
 
 
 // movilidad con las teclas direccionales
