@@ -1,44 +1,16 @@
 .pista{
-    height: 60px;
-    width: 60px;
-    background-image: url(imagenes/idea.png);
+    height: 50px;
+    width: 50px;
+    background-image: url(https://github.com/straviranus/escapando/blob/main/Imagenes/idea.png?raw=true);
     background-size: 100% 100%;
 visibility: hidden;
 }
 
-.subir-1:hover{
-    width: 150px;
-    height: 150px;
-    background-image: url(imagenes/inicial.png);
-    background-size: 100% 100%;
-    padding: 0;
-}
-.bajar-1:hover{
-    width: 70px;
-    height: 70px;
-    background-image: url(imagenes/king.png);
-    background-size: 100% 100%;
-    padding: 0;
-    border-radius: 30%;
-}
-.subir-2:hover{
-    width: 150px;
-    height: 150px;
-    background-image: url(imagenes/pista-4.png);
-    background-size: 100% 100%;
-    padding: 0;
-}
-.bajar-2:hover{
-    width: 150px;
-    height: 150px;
-    background-image: url(imagenes/pista-3.png);
-    background-size: 100% 100%;
-    padding: 0;
-}
+
 .subir-1{
     visibility: visible;
     animation-name: subiendo ;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     position: relative;
     animation-timing-function: linear;
@@ -48,7 +20,7 @@ visibility: hidden;
 .bajar-1{
     visibility: visible;
     animation-name: bajar ;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     position: relative;
     animation-timing-function: linear;
@@ -57,7 +29,7 @@ visibility: hidden;
 .subir-2{
     visibility: visible;
     animation-name: subiendo ;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     position: relative;
     animation-timing-function: linear;
@@ -67,11 +39,40 @@ visibility: hidden;
 .bajar-2{
     visibility: visible;
     animation-name: bajar ;
-    animation-duration: 10s;
+    animation-duration: 15s;
     animation-iteration-count: 1;
     position: relative;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
+}
+.subir-1:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://github.com/straviranus/escapando/blob/main/Imagenes/pista-1.png?raw=true);
+    background-size: 100% 100%;
+    padding: 0;
+}
+.bajar-1:hover{
+    width: 70px;
+    height: 70px;
+    background-image: url(https://github.com/straviranus/escapando/blob/main/Imagenes/pista-2.png?raw=true);
+    background-size: 100% 100%;
+    padding: 0;
+    border-radius: 30%;
+}
+.subir-2:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://github.com/straviranus/escapando/blob/main/Imagenes/pista-3.png?raw=true);
+    background-size: 100% 100%;
+    padding: 0;
+}
+.bajar-2:hover{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://github.com/straviranus/escapando/blob/main/Imagenes/pista-4.png?raw=true);
+    background-size: 100% 100%;
+    padding: 0;
 }
 @keyframes subiendo {
 0%{ top: 370px; left: 100px;opacity: 0.0; }

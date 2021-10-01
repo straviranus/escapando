@@ -7,7 +7,7 @@ document.getElementById("pieza").classList.add("opacidad");
 document.getElementById("boton").style.display="none";
 document.getElementById("danubio").play();
 setTimeout(teclas,7000);
-setInterval(pistass,110000);
+setInterval(pistass,27000);
 }
 function teclas(){
     document.onkeydown=chars;
@@ -31,7 +31,7 @@ function pistass(){
     }
 
    clues[alternador].classList.add(animaciones[alternador]);
-    setTimeout(desaparecer,10000)
+    setTimeout(desaparecer,15000)
 }
 function desaparecer(){
     var pista1=document.getElementById("pista-1")
