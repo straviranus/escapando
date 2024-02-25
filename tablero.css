@@ -7,11 +7,9 @@
     grid-template-columns: repeat(8, 12.5%);
     grid-template-rows: repeat(8, 12.5%);
     overflow: hidden; 
-    position: fixed;
     visibility:hidden;
     margin: auto;
-    
-
+    position: relative;
 }
 .bajando{
     animation-name: bajando;
@@ -20,8 +18,14 @@
     animation-timing-function: linear;
 }
 @keyframes bajando{
-    0%{top: 0px}
-    100%{top: 60.5px;}
+    0% {
+        top: -20%;
+        opacity: 0;
+    }
+    100% {
+        top: 0%;
+        opacity: 1;
+    }
 }
 
 
