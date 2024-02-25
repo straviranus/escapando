@@ -11,8 +11,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
 }
 #boton{
     display: block;
@@ -23,21 +21,21 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #start{
-background-color: brown;
-inset-block-start: center;
-width: 700px;
-margin-left: 500px;
-background-image: url(Imagenes/eskape.png);
-background-size: 100% 100%;
-text-align: center;
+    background-color: brown;
+    inset-block-start: center;
+    width: 700px;
+    margin-left: 500px;
+    background-image: url(Imagenes/eskape.png);
+    background-size: 100% 100%;
+    text-align: center;
 }
 #contenedor{
     vertical-align: middle;
     line-height: 50%;
-    height: 504;
+    height: 504px;
     width: 1300px;
-   display: flex;
-   
+    display: flex;
+    position: relative;
 }
 #caja-1{
     height: 504px;
@@ -56,10 +54,11 @@ text-align: center;
     background-size: 100% 100%;
     object-fit: cover;
     object-position: center;
-    position: relative;
+    position: absolute;
     margin-left: 252px;
     margin-top: 441px;
     opacity: 0.0;
+    top: 0;
 }
 
 .opacidad{
