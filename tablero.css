@@ -41,7 +41,7 @@
     #board{
         width: 504px;
         height: 504px;
-        margin:auto;
+        margin: 0;
         overflow: hidden;
-        
+        position: relative;
     }
